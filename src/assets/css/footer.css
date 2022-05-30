@@ -1,0 +1,49 @@
+.footer-component {
+  position: absolute;
+  top: calc(100% - 7vh);
+  color: #607b96;
+  font-size: 0.9rem;
+  border-top: 0.5px solid #333436;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  width: calc(100% - 4vh);
+}
+.footer-logo {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 0.5px solid #333436;
+}
+
+.footer-username {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 0.5px solid #333436;
+}
+.footer-username:hover {
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.footer-items {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 0.5px solid #333436;
+}
+.social-icon {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.social-icon:hover {
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}

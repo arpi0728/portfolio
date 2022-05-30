@@ -1,0 +1,45 @@
+.game-container {
+  display: flex;
+  width: 75%;
+  height: 100%;
+  min-height: 500px;
+  position: relative;
+  top: 2.5rem;
+  left: 5%;
+  background: linear-gradient(150.26deg, #175553, #43d9ad);
+  opacity: 0.6;
+  border: 1px solid #0c1616;
+  box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(64px);
+  border-radius: 10px;
+}
+
+.game-canvas {
+  height: calc(100% - 4rem);
+  width: 50%;
+  background-color: #011627;
+  margin: 2rem;
+  opacity: 0.85;
+  border-radius: 10px;
+}
+
+.bolt-top-left {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+.bolt-bottom-left {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.5rem;
+}
+.bolt-top-right {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.bolt-bottom-right {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
