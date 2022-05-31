@@ -29,6 +29,7 @@
 	align-items: center;
 	justify-content: center;
 	border-right: 0.5px solid #333436;
+	color: #607b96;
 }
 .menu-items-navbar:first-child {
 	border-left: 0.5px solid #333436;
@@ -51,6 +52,7 @@
 	align-items: center;
 	justify-content: center;
 	border-left: 0.5px solid #333436;
+	color: #607b96;
 }
 .header-contact:hover {
 	color: #fff;
